@@ -6,23 +6,23 @@
 
 <script>
 export default {
-  name: "ft-str-hash-block",
+  name: "ft-output-block",
   props: {
     value: {
-      type: String,
-      default: "",
-    },
+      default: null
+    }
   },
 };
 </script>
 
 <style>
 .ft-str-hash-block {
-  min-height: 100px;
-  max-height: 100px;
+  margin: 5px;
+  height: 200px;
   overflow-y: scroll;
   border: 2px solid black;
   padding: 10px;
-  width: 300px;
+  width: 33%;
+  word-wrap: break-word;
 }
 </style>

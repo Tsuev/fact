@@ -20,10 +20,14 @@ export default {
 
 <style>
 .ft-options-list{
-  max-height: 300px;
-  min-width: 300px;
+  width: 33%;
+  margin: 5px;
+  height: 200px;
   overflow-y: scroll;
   border: 2px solid black;
   padding: 10px;
+}
+li{
+  text-align: left;
 }
 </style>
